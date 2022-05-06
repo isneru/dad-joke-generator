@@ -1,9 +1,7 @@
-import {GenerateJokeScreen} from "./screens"
+import { GenerateJokeScreen } from './screens';
 
 function App() {
-  return (
-    <GenerateJokeScreen />
-  );
+	return <GenerateJokeScreen />;
 }
 
 export default App;
