@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/dad-joke-generator/static/css/main.d2be9e9e.css",
-    "main.js": "/dad-joke-generator/static/js/main.d11f27e8.js",
+    "main.js": "/dad-joke-generator/static/js/main.29261c6d.js",
     "static/media/laugh.wav": "/dad-joke-generator/static/media/laugh.82aa0774b9c96da37ecf.wav",
     "index.html": "/dad-joke-generator/index.html",
     "main.d2be9e9e.css.map": "/dad-joke-generator/static/css/main.d2be9e9e.css.map",
-    "main.d11f27e8.js.map": "/dad-joke-generator/static/js/main.d11f27e8.js.map"
+    "main.29261c6d.js.map": "/dad-joke-generator/static/js/main.29261c6d.js.map"
   },
   "entrypoints": [
     "static/css/main.d2be9e9e.css",
-    "static/js/main.d11f27e8.js"
+    "static/js/main.29261c6d.js"
   ]
 }
