@@ -13,7 +13,7 @@ export const GenerateJokeScreenHelper = (): GenerateJokeScreenHelperProps => {
 	//Variable that hold the text of the joke and the one to set it
 	const [jokeText, setJokeText] = useState<string>('');
 	const { speak, speaking } = useSpeechSynthesis();
-
+	const voices = speechSynthesis.getVoices();
 	//Validates if there's audio speaking and once it's not, the laugh strack will play
 	useEffect(() => {
 		if (!speaking) {
@@ -32,7 +32,7 @@ export const GenerateJokeScreenHelper = (): GenerateJokeScreenHelperProps => {
 	const getDadJoke = () => {
 		axios.get('https://icanhazdadjoke.com/', { headers: { accept: 'application/json' } }).then((res) => {
 			setJokeText(res.data.joke);
-			speak({ text: res.data.joke });
+			speak({ text: res.data.joke, voice: voices[1] });
 		});
 	};
 
