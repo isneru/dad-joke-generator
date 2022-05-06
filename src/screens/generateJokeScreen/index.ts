@@ -1,1 +1,1 @@
-export * from "./generateJokeScreen"
+export * from './generateJokeScreen';

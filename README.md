@@ -1,6 +1,6 @@
 ## [Dad Joke Generator with React](https://isneru.github.io/dad-joke-generator)
 
-- The main goal of this project is to generate a random dad joke that I get from the DadJoke API at [https://icanhazdadjoke.com/](https://icanhazdadjoke.com/)
+-   The main goal of this project is to generate a random dad joke that I get from the DadJoke API at [https://icanhazdadjoke.com/](https://icanhazdadjoke.com/)
 
 ## Install dependencies
 
